@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Alice
+- Font Author: Copyright 2011 The Alice Project Authors (https://github.com/cyrealtype/Alice)
+- Font Source: http://fonts.gstatic.com/s/alice/v20/OpNCnoEEmtHa6FcJpA_chzJ0.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
