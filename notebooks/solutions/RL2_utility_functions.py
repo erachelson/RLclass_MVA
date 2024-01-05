@@ -1,7 +1,7 @@
 import gymnasium as gym
 import gymnasium.envs.toy_text.frozen_lake as fl
 import numpy as np
-import solutions.RL1_utility_functions
+from solutions.RL1_utility_functions import actions, to_s
 
 def print_policy(pi):
     env = gym.make('FrozenLake-v1', render_mode="ansi")

@@ -1,53 +1,23 @@
-site_name: Reinforcement learning class
+site_name: Reinforcement learning class @ MVA Master of Science
 site_description: Introduction to reinforcement learning class
-site_url: https://erachelson.github.io/RLclass/
+site_url: https://erachelson.github.io/RLclass_MVA/
 site_dir: site
 strict: false
 use_directory_urls: false
 
 theme:
   name: 'cinder'
-  logo: 'https://raw.githubusercontent.com/erachelson/RLclass/main/docs/img/favicon/favicon.ico'
-  favicon: 'https://raw.githubusercontent.com/erachelson/RLclass/main/docs/img/favicon/favicon.ico'
+  logo: 'https://raw.githubusercontent.com/erachelson/RLclass_MVA/main/docs/img/favicon/favicon.ico'
+  favicon: 'https://raw.githubusercontent.com/erachelson/RLclass_MVA/main/docs/img/favicon/favicon.ico'
   features:
     - toc.autohide
     - navigation.sections
 
-repo_name: erachelson/RLclass
-repo_url: https://github.com/erachelson/RLclass
+repo_name: erachelson/RLclass_MVA
+repo_url: https://github.com/erachelson/RLclass_MVA
 
 nav:
 - RL class home: index.md
-- Classes: 
-    - Class introduction: intro.md
-    - 
-    
-- Syllabi:
-    - SDD students
-    - MVA students
-
-- Speakers:
-    - D. A. Berry: donald-berry.md
-    - K. Chatzilygeroudis: konstantinos-chatzilygeroudis.md
-    - M. Garnelo: marta-garnelo.md
-    - M. Geist: matthieu-geist.md
-    - L. P. Kaelbling: leslie-kaelbling.md
-    - T. Lattimore: tor-lattimore.md
-    - D. Lee: dongheui-lee.md
-    - J.-B. Mouret: jean-baptiste-mouret.md
-    - B. Piot: bilal-piot.md
-    - M. Pirotta: matteo-pirotta.md
-    - D. Precup: doina-precup.md
-    - E. Rachelson: emmanuel-rachelson.md
-    - A. Raffin: antonin-raffin.md
-    - I. Rish: irina-rish.md
-    - S. Risi: sebastian-risi.md
-    - O. Sigaud: olivier-sigaud.md
-    - C. Tallec: corentin-tallec.md
-    - M. Wang: mengdi-wang.md
-    - D. Wilson: dennis-wilson.md
-- Organizers: organizers.md
-- FAQ: faq.md
 
 markdown_extensions:
 - markdown.extensions.codehilite:
