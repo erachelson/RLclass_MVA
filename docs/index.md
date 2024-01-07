@@ -5,16 +5,25 @@ This class is joint work between [Emmanuel Rachelson](https://people.isae-supaer
 
 ## Syllabus
 
-This class aims at providing a comprehensive and modern introduction to reinforcement learning concepts and algorithms. It is structured around several chapters, each covered in a separate notebook.
+This class aims at providing a comprehensive and modern introduction to reinforcement learning concepts and algorithms. It endeavors to provide a solid formal basis on foundational notions of reinforcement learning (MDP modeling, convergence properties of dynamic programming and stochastic gradient descent, stochastic bandits, etc.), in order to move in a principled manner towards state-of-the-art algorithms (including deep RL ones).  
+The class is structured around a series of chapters, each covered in an independent notebook.  
 
-Chapter 0: Reinforcement Learning class introduction; key intuitions  
-Chapter 1: Modeling sequential decision problems with Markov Decision Processes  
-Chapter 2: Characterizing value functions: the Bellman equations  
-Chapter 3: Learning value functions  
-Chapter 4: Deep Q-Networks  
-Chapter 5: Continuous actions in DQN algorithms  
-Chapter 6: Direct policy search and policy gradient methods  
-TBC: chapters on bandits, exploration, MCTS and alphaGo  
+**Chapter 0: Reinforcement Learning class introduction; key intuitions**  
+Class rules, general definition of RL, position in the ML landscape, first elements of vocabulary.  
+**Chapter 1: Modeling sequential decision problems with Markov Decision Processes**  
+MDP definition, policies and value functions, definition of optimality, state distributions, horizon.  
+**Chapter 2: Characterizing value functions: the Bellman equations**  
+State-action value functions, dynamic programming evaluation and optimality Bellman equations, value iteration, (modified) policy iteration, asynchronous dynamic programming, linear programming.  
+**Chapter 3: Learning value functions**  
+Approximate value and policy iteration, AVI as a series of supervised learning problems, stochastic gradient descent for AVI, temporal difference methods, Q-learning, fitted Q-iteration. Overview of key intrinsic challenges in RL.  
+**Chapter 4: Deep Q-Networks**  
+Neural network architecture for value functions, DQN, improvements on DQN.  
+**Chapter 5: Continuous actions in DQN algorithms**  
+From DDPG to SAC.  
+**Chapter 6: Direct policy search and policy gradient methods**  
+Policy gradient theorem, REINFORCE, A2C, PPO, evolutionary RL.  
+**additional chapters on bandits, exploration, MCTS and alphaGo**  
+TBC
 
 ## Class material
 
@@ -41,5 +50,5 @@ Each notebook contains homework that help play with the concepts introduced in c
 The final grade will be composed of three parts (coefficients TBD).  
 1. Between session 2 and session 6 (included), a short mandatory online 10-15 minutes quiz will be run at the beginning of class, on the contents of the previous session. These quizes will be graded and will count towards the final grade.  
 2. An implementation project around session 6 will also be graded.  
-3. An independant assignment on the last two sessions will finally be graded.  
+3. An independent assignment on the last two sessions will finally be graded.  
 
