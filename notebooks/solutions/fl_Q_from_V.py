@@ -1,9 +1,6 @@
-import gymnasium as gym
-import gymnasium.envs.toy_text.frozen_lake as fl
 import numpy as np
 
-def Q_from_V(V):
-    env = gym.make('FrozenLake-v1', render_mode="ansi")
+def Q_from_V(env,V):
     gamma = 0.9
     Q = np.zeros((env.observation_space.n, env.action_space.n))
     for s in range(env.observation_space.n):

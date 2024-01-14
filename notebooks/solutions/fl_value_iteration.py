@@ -1,9 +1,6 @@
-import gymnasium as gym
-import gymnasium.envs.toy_text.frozen_lake as fl
 import numpy as np
 
-def value_iteration(V, epsilon, max_iter):
-    env = gym.make('FrozenLake-v1', render_mode="ansi")
+def value_iteration(env, V, epsilon, max_iter):
     gamma = 0.9
     W = np.copy(V)
     residuals = np.zeros((max_iter))

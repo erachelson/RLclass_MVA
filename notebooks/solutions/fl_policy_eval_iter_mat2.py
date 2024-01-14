@@ -1,9 +1,6 @@
-import gymnasium as gym
-import gymnasium.envs.toy_text.frozen_lake as fl
 import numpy as np
 
-def policy_eval_iter_mat2(pi, epsilon, max_iter):
-    env = gym.make('FrozenLake-v1', render_mode="ansi")
+def policy_eval_iter_mat2(env, pi, epsilon, max_iter):
     gamma = 0.9
     # build r and P
     r_pi = np.zeros((env.observation_space.n))
