@@ -1,4 +1,4 @@
-import gymnasium
+import gymnasium as gym
 import gymnasium.envs.toy_text.frozen_lake as fl
 import numpy as np
 
