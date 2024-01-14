@@ -23,7 +23,7 @@ From DDPG to SAC.
 **Chapter 6: Direct policy search and policy gradient methods**  
 Policy gradient theorem, REINFORCE, A2C, PPO, evolutionary RL.  
 **Chapter 7: Stochastic bandits**  
-Regret. Explore Then Comit. UCB. Thompson Sampling. Contextual bandits. Bandits beyond RL. 
+Regret. Explore Then Comit. UCB. Thompson Sampling. Contextual bandits. Bandits beyond RL.  
 **Chapter 8: Bandit tools for Reinforcement Learning**  
 Exploration in RL. (Bandit based) Monte Carlo Tree Search. UCT, Alpha Zero.  
 
