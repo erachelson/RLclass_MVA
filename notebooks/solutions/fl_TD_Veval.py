@@ -5,7 +5,7 @@ from tqdm import tqdm
 def TD_Veval(env, pi, max_steps, alpha, gamma, Vinit=None, Vtrue=None):
     error = np.zeros((max_steps))
     if (Vinit is None):
-        Vinit = np.zeros((env.observation_space.n, env.action_space.n))
+        Vinit = np.zeros((env.observation_space.n))
     V = np.copy(Vinit)
     x,_ = env.reset()
     for t in tqdm(range(max_steps)):
