@@ -36,11 +36,11 @@ Notebooks for the first 6 chapters are accessible at [https://github.com/erachel
 The schedule is designed around 3-hours sessions. It might be adjusted depending on the progression of classes.
 
 Session 1: chapters 0 and 1.  
-Session 2: chapter 2 and 3.  
-Session 3: chapter 4.  
-Session 4: chapter 5.  
-Session 5: chapter 6.  
-Session 6 is kept unassigned for now, to preserve the possibility to use it as a buffer to avoid rushing through previous sessions.  
+Session 2: chapter 2.  
+Session 3: chapter 3.  
+Session 4: chapter 4.  
+Session 5: chapter 5.  
+Session 6: chapter 6.  
 Session 7 and 8: stochastic bandits, monte carlo tree search and alphaGo.  
 
 ## Homework
