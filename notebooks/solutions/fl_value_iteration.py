@@ -1,7 +1,8 @@
 import numpy as np
 
-def value_iteration(env, V, epsilon, max_iter):
+def value_iteration(env, V0, epsilon, max_iter):
     gamma = 0.9
+    V = np.copy(V0)
     W = np.copy(V)
     residuals = np.zeros((max_iter))
     for i in range(max_iter):
