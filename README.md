@@ -15,9 +15,9 @@ MDP definition, policies and value functions, definition of optimality, state di
 **Chapter 2: Characterizing value functions: the Bellman equations**  
 State-action value functions, dynamic programming evaluation and optimality Bellman equations, value iteration, (modified) policy iteration, asynchronous dynamic programming, linear programming.  
 **Chapter 3: Learning value functions**  
-Approximate value and policy iteration, AVI as a series of supervised learning problems, stochastic gradient descent for AVI, temporal difference methods, Q-learning, fitted Q-iteration. Overview of key intrinsic challenges in RL.  
-**Chapter 4: Deep Q-Networks**  
-Neural network architecture for value functions, DQN, improvements on DQN.  
+Approximate value and policy iteration, AVI as a series of supervised learning problems, stochastic gradient descent for AVI, temporal difference methods, Q-learning. Overview of key intrinsic challenges in RL.  
+**Chapter 4: From fitted Q-iteration to deep Q-networks**  
+fitted Q-iteration, neural network architecture for value functions, DQN, improvements on DQN.  
 **Chapter 5: Continuous actions in DQN algorithms**  
 From DDPG to SAC.  
 **Chapter 6: Direct policy search and policy gradient methods**  
