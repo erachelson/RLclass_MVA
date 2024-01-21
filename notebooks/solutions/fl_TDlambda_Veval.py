@@ -2,14 +2,14 @@ import gymnasium as gym
 import numpy as np
 from tqdm import tqdm
 
-def TDlambda_Veval(env, pi, max_steps, alpha, gamma, lambd, Vinit=None, Vtrue=None):
+def TDlambda_Veval(env, pi, max_steps, alpha, gamma, lambd, Vinit=None, Vtrue=None, disable_tqdm=False):
     error = np.zeros((max_steps))
     if (Vinit is None):
         Vinit = np.zeros((env.observation_space.n))
     V = np.copy(Vinit)
     e = np.zeros((env.observation_space.n))
     x,_ = env.reset()
-    for t in tqdm(range(max_steps)):
+    for t in tqdm(range(max_steps), disable=disable_tqdm):
         y,r,d,_,_ = env.step(pi[x])
         delta = r+gamma*V[y]-V[x]
         for s in range(env.observation_space.n):

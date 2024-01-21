@@ -2,13 +2,13 @@ import gymnasium as gym
 import numpy as np
 from tqdm import tqdm
 
-def MC_Veval(env, pi, max_steps, max_episodes, alpha, gamma, Vinit=None, Vtrue=None):
+def MC_Veval(env, pi, max_steps, max_episodes, alpha, gamma, Vinit=None, Vtrue=None, disable_tqdm=False):
     error = np.zeros((max_episodes)) # used to track the convergence to V_pi0...
     cumulated_steps = np.zeros((max_episodes)) # ... against the number of samples
     if (Vinit is None):
         Vinit = np.zeros((env.observation_space.n))
     V = np.copy(Vinit)
-    for ep in tqdm(range(max_episodes)):
+    for ep in tqdm(range(max_episodes), disable=disable_tqdm):
         x,_ = env.reset()
         episode = []
         # Run episode

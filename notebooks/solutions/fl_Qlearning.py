@@ -2,14 +2,14 @@ import numpy as np
 from tqdm import tqdm
 from solutions.fl_epsilon_greedy import epsilon_greedy
 
-def Qlearning(env, max_steps, alpha, gamma, epsilon_update_period, Qinit=None, Qtrue=None):
+def Qlearning(env, max_steps, alpha, gamma, epsilon_update_period, Qinit=None, Qtrue=None, disable_tqdm=False):
     if (Qinit is None):
         Qinit = np.zeros((env.observation_space.n,env.action_space.n)) 
     Qql = np.copy(Qinit)
     epsilon = 1
     error = np.zeros((max_steps))
     x,_ = env.reset()
-    for t in tqdm(range(max_steps)):
+    for t in tqdm(range(max_steps), disable=disable_tqdm):
         if((t+1)%epsilon_update_period==0):
             epsilon = epsilon/2
         a = epsilon_greedy(env,Qql,x,epsilon)
