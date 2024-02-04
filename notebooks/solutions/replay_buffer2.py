@@ -4,7 +4,7 @@ import numpy as np
 
 class ReplayBuffer:
     def __init__(self, capacity, device):
-        self.capacity = capacity # capacity of the buffer
+        self.capacity = int(capacity) # capacity of the buffer
         self.data = []
         self.index = 0 # index of the next cell to be filled
         self.device = device
