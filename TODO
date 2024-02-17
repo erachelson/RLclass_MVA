@@ -1,0 +1,20 @@
+- Decide whether to change \pi_{n+1} \in \mathcal{G}Q_{n} and Q_{n+1} = T^{\pi_{n+1}} Q_n in VI, PI, MPI (RL2), learning optimal vf, SARSA (RL3), reminder, neural networks for AVI (RL4), DPG (RL5)
+- Exo prioritized sweeping (RL2)
+- Directly implement target networks in DQN (RL4)
+- Exo double DQN (RL4)
+- Other exercises (RL4)
+- Restructure RL5 to make it more progressive.
+- Add SAC with adjustable temp to RL5
+- SAC discrete actions
+- SAC delayed actor updates
+
+proofs:
+- existence of a memoryless, stationary, deterministic policy
+- contraction of T^\pi
+- contraction of T^*
+- policy improvement theorem
+- convergence of MPI
+- DPG theorem
+
+
+make a version of SAC with LaBER on the critic, and delayed actor updates.
