@@ -7,6 +7,8 @@
 - Add SAC with adjustable temp to RL5
 - SAC discrete actions
 - SAC delayed actor updates
+- correction of exercises in RL6
+- NPG in RL6
 
 proofs:
 - existence of a memoryless, stationary, deterministic policy
