@@ -1,5 +1,6 @@
 - Decide whether to change \pi_{n+1} \in \mathcal{G}Q_{n} and Q_{n+1} = T^{\pi_{n+1}} Q_n in VI, PI, MPI (RL2), learning optimal vf, SARSA (RL3), reminder, neural networks for AVI (RL4), DPG (RL5)
 - Exo prioritized sweeping (RL2)
+- Add CPI to RL2 (Kakade and Lagford 2002)
 - Directly implement target networks in DQN (RL4)
 - Exo double DQN (RL4)
 - Other exercises (RL4)
