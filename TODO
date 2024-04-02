@@ -10,6 +10,8 @@
 - SAC delayed actor updates
 - correction of exercises in RL6
 - NPG in RL6
+- title: "a modern RL textbook"
+- use w for parameters of Q
 
 proofs:
 - existence of a memoryless, stationary, deterministic policy
