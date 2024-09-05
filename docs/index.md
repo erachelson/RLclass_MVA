@@ -34,7 +34,7 @@ Material for the last 2 chapters are accessible at [https://emiliekaufmann.githu
 
 ## Schedule for 2024-25
 
-The schedule is designed around 3-hours sessions. It might be adjusted depending on the progression of classes. Each session will cover a chapter (session 1 covers chapters 0 and 1).
+The schedule is designed around 3-hours sessions. It might be adjusted depending on the progression of classes. Each session will cover a chapter (session 1 covers chapters 0 and 1).  
 Tentative schedule (possible adjustments forthcoming): 07/10/24; 14/10/24; 21/10/24; 04/11/24; 13/11/24; 18/11/24; 25/11/24; 02/12/24; 09/12/24 
 
 ## Homework
