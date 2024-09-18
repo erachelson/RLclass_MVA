@@ -1,7 +1,8 @@
 # RL class @ MVA
 
 Welcome to the website of the reinforcement learning class for the [MVA master program](https://www.master-mva.com/).  
-This class is joint work between [Emmanuel Rachelson](https://people.isae-supaero.fr/emmanuel-rachelson) (first 6 sessions) and [Emilie Kaufmann](https://emiliekaufmann.github.io/) (2 last ones).
+This class is joint work between [Emmanuel Rachelson](https://people.isae-supaero.fr/emmanuel-rachelson) (6 sessions) and [Claire Vernade](https://www.cvernade.com/) (2 sessions).  
+The class is complemented with an invited lecture after the first 8 sessions.
 
 ## Syllabus
 
@@ -27,6 +28,13 @@ Regret. Explore Then Comit. UCB. Thompson Sampling. Contextual bandits. Bandits 
 **Chapter 8: Bandit tools for Reinforcement Learning**  
 Exploration in RL. (Bandit based) Monte Carlo Tree Search. UCT, Alpha Zero.  
 
+Chapters 0 to 3 cover the foundational ingredients of reinforcement learning, and introduce the three fundamental challenges in RL which are explored independently in the remainder of the class:
+- approximation and representation of value functions and policies (a bit of chapter 3, and chapter 4)
+- the policy optimization problem (chapters 5 and 6)
+- the exploration / exploitation tradeoff (chapters 7 and 8)
+Hence, the class is built as a three-branches tree. It will always start with the "stem" of chapters 0 to 3. But later sessions might interleave chapters of the three branches.   
+For the sake of brevity and ease of notation, in the schedule below, chapters 0 to 3 are called "foundations", chapter 4 is called "approximation", chapters 5 and 6 are called "optimization", and chapters 7 and 8 are called "exploration".  
+
 ## Class material
 
 Notebooks for the first 6 chapters are accessible at [https://github.com/erachelson/RLclass_MVA](https://github.com/erachelson/RLclass_MVA). Please download the latest version before class.  
@@ -35,7 +43,16 @@ Material for the last 2 chapters are accessible at [https://emiliekaufmann.githu
 ## Schedule for 2024-25
 
 The schedule is designed around 3-hours sessions. It might be adjusted depending on the progression of classes. Each session will cover a chapter (session 1 covers chapters 0 and 1).  
-Tentative schedule (possible adjustments forthcoming): 07/10/24; 14/10/24; 21/10/24; 04/11/24; 13/11/24; 18/11/24; 25/11/24; 02/12/24; 09/12/24 
+Tentative schedule (possible adjustments forthcoming):   
+07/10/24 chapters 0 and 1 (foundations 1/3)  
+14/10/24 chapter 2 (foundations 2/3)  
+21/10/24 chapter 3 (foudnations 3/3)  
+04/11/24 chapter 7 (exploration 1/2)  
+13/11/24 chapter 4 (approximation 1/1)  
+18/11/24 chapter 8 (exploration 2/2)  
+25/11/24 chapter 5 (optimization 1/2)  
+02/12/24 chapter 6 (optimization 2/2)  
+09/12/24 invited lecture by Dr. [Vincent François-Lavet](http://vincent.francois-l.be/)  
 
 ## Homework
 
@@ -44,7 +61,7 @@ Each notebook contains homework that help play with the concepts introduced in c
 ## Evaluation
 
 The final grade will be composed of three parts (coefficients TBD).  
-1. Between session 2 and session 6 (included), a short mandatory online 10-15 minutes quiz will be run at the beginning of class, on the contents of the previous session. These quizes will be graded and will count towards the final grade.  
-2. An implementation project around session 6 will also be graded.  
-3. An independent assignment on the last two sessions will finally be graded.  
+1. Between session 2 and session 8 (included), a short mandatory online 10-15 minutes quiz will be run at the beginning of class, on the contents of the previous session. These quizes will be graded and will count towards the final grade.  
+2. An implementation project (topic disclosed around session 8) will also be graded.  
+3. An independent assignment on the exploration part will finally be graded.  
 
