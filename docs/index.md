@@ -44,15 +44,19 @@ Material for the last 2 chapters are accessible at [https://emiliekaufmann.githu
 
 The schedule is designed around 3-hours sessions. It might be adjusted depending on the progression of classes. Each session will cover a chapter (session 1 covers chapters 0 and 1).  
 Tentative schedule (possible adjustments forthcoming):   
-07/10/24 chapters 0 and 1 (foundations 1/3)  
-14/10/24 chapter 2 (foundations 2/3)  
-21/10/24 chapter 3 (foudnations 3/3)  
-04/11/24 chapter 7 (exploration 1/2)  
-13/11/24 chapter 4 (approximation 1/1)  
-18/11/24 chapter 8 (exploration 2/2)  
+Oct 07 - chapters 0 and 1 (foundations 1/3)  
+Oct 14 - chapter 2 (foundations 2/3)  
+Oct 21 - chapter 3 (foudnations 3/3)  
+Nov 4 - chapter 7 (exploration 1/2)  
+Nov 13 chapter 4 (approximation 1/1)  
+Nov 18 chapter 8 (exploration 2/2)  
 25/11/24 chapter 5 (optimization 1/2)  
 02/12/24 chapter 6 (optimization 2/2)  
 09/12/24 invited lecture by Dr. [Vincent François-Lavet](http://vincent.francois-l.be/)  
+
+All classes are scheduled from 9am to 12pm. Please arrive early so we can start on time.  
+All class dates are Mondays, except for Nov 13 which is a Wednesday.  
+All classes are given at the "Pavillon 3" amphitheater, on the [Site des Cordeliers, Université Paris Cité](https://maps.app.goo.gl/SAy9CZzFbkud3Gmi9), except for the class on Nov 18 that will be given at Amphi Dieulafoy of [Hopital Cochin, Université Paris Cité](https://maps.app.goo.gl/PL48qXXus6NSNGC16)".
 
 ## Homework
 
