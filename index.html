@@ -102,7 +102,8 @@
 
 <h1 id="rl-class-mva">RL class @ MVA<a class="headerlink" href="#rl-class-mva" title="Permanent link">🔗</a></h1>
 <p>Welcome to the website of the reinforcement learning class for the <a href="https://www.master-mva.com/">MVA master program</a>.<br />
-This class is joint work between <a href="https://people.isae-supaero.fr/emmanuel-rachelson">Emmanuel Rachelson</a> (first 6 sessions) and <a href="https://emiliekaufmann.github.io/">Emilie Kaufmann</a> (2 last ones).</p>
+This class is joint work between <a href="https://people.isae-supaero.fr/emmanuel-rachelson">Emmanuel Rachelson</a> (6 sessions) and <a href="https://www.cvernade.com/">Claire Vernade</a> (2 sessions).<br />
+The class is complemented with an invited lecture after the first 8 sessions.</p>
 <h2 id="syllabus">Syllabus<a class="headerlink" href="#syllabus" title="Permanent link">🔗</a></h2>
 <p>This class aims at providing a comprehensive and modern introduction to reinforcement learning concepts and algorithms. It endeavors to provide a solid formal basis on foundational notions of reinforcement learning (MDP modeling, convergence properties of dynamic programming and stochastic gradient descent, stochastic bandits, etc.), in order to move in a principled manner towards state-of-the-art algorithms (including deep RL ones).<br />
 The class is structured around a series of chapters, each covered in an independent notebook.  </p>
@@ -124,19 +125,34 @@ Policy gradient theorem, REINFORCE, A2C, PPO, evolutionary RL.<br />
 Regret. Explore Then Comit. UCB. Thompson Sampling. Contextual bandits. Bandits beyond RL.<br />
 <strong>Chapter 8: Bandit tools for Reinforcement Learning</strong><br />
 Exploration in RL. (Bandit based) Monte Carlo Tree Search. UCT, Alpha Zero.  </p>
+<p>Chapters 0 to 3 cover the foundational ingredients of reinforcement learning, and introduce the three fundamental challenges in RL which are explored independently in the remainder of the class:
+- approximation and representation of value functions and policies (a bit of chapter 3, and chapter 4)
+- the policy optimization problem (chapters 5 and 6)
+- the exploration / exploitation tradeoff (chapters 7 and 8)
+Hence, the class is built as a three-branches tree. It will always start with the "stem" of chapters 0 to 3. But later sessions might interleave chapters of the three branches. <br />
+For the sake of brevity and ease of notation, in the schedule below, chapters 0 to 3 are called "foundations", chapter 4 is called "approximation", chapters 5 and 6 are called "optimization", and chapters 7 and 8 are called "exploration".  </p>
 <h2 id="class-material">Class material<a class="headerlink" href="#class-material" title="Permanent link">🔗</a></h2>
 <p>Notebooks for the first 6 chapters are accessible at <a href="https://github.com/erachelson/RLclass_MVA">https://github.com/erachelson/RLclass_MVA</a>. Please download the latest version before class.<br />
 Material for the last 2 chapters are accessible at <a href="https://emiliekaufmann.github.io/teaching.html">https://emiliekaufmann.github.io/teaching.html</a>. </p>
 <h2 id="schedule-for-2024-25">Schedule for 2024-25<a class="headerlink" href="#schedule-for-2024-25" title="Permanent link">🔗</a></h2>
 <p>The schedule is designed around 3-hours sessions. It might be adjusted depending on the progression of classes. Each session will cover a chapter (session 1 covers chapters 0 and 1).<br />
-Tentative schedule (possible adjustments forthcoming): 07/10/24; 14/10/24; 21/10/24; 04/11/24; 13/11/24; 18/11/24; 25/11/24; 02/12/24; 09/12/24 </p>
+Tentative schedule (possible adjustments forthcoming): <br />
+07/10/24 chapters 0 and 1 (foundations 1/3)<br />
+14/10/24 chapter 2 (foundations 2/3)<br />
+21/10/24 chapter 3 (foudnations 3/3)<br />
+04/11/24 chapter 7 (exploration 1/2)<br />
+13/11/24 chapter 4 (approximation 1/1)<br />
+18/11/24 chapter 8 (exploration 2/2)<br />
+25/11/24 chapter 5 (optimization 1/2)<br />
+02/12/24 chapter 6 (optimization 2/2)<br />
+09/12/24 invited lecture by Dr. <a href="http://vincent.francois-l.be/">Vincent François-Lavet</a>  </p>
 <h2 id="homework">Homework<a class="headerlink" href="#homework" title="Permanent link">🔗</a></h2>
 <p>Each notebook contains homework that help play with the concepts introduced in class, to better grasp them. Most exercises come with solutions. The homework also introduces additional important notions. They are a full and important part to reach the class goals. Often, the provided answer reaches out further than the plain question asked and provides comments, additional insights, or external references.</p>
 <h2 id="evaluation">Evaluation<a class="headerlink" href="#evaluation" title="Permanent link">🔗</a></h2>
 <p>The final grade will be composed of three parts (coefficients TBD).<br />
-1. Between session 2 and session 6 (included), a short mandatory online 10-15 minutes quiz will be run at the beginning of class, on the contents of the previous session. These quizes will be graded and will count towards the final grade.<br />
-2. An implementation project around session 6 will also be graded.<br />
-3. An independent assignment on the last two sessions will finally be graded.  </p></div>
+1. Between session 2 and session 8 (included), a short mandatory online 10-15 minutes quiz will be run at the beginning of class, on the contents of the previous session. These quizes will be graded and will count towards the final grade.<br />
+2. An implementation project (topic disclosed around session 8) will also be graded.<br />
+3. An independent assignment on the exploration part will finally be graded.  </p></div>
         
         
     </div>
@@ -241,5 +257,5 @@ Tentative schedule (possible adjustments forthcoming): 07/10/24; 14/10/24; 21/10
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2024-09-05 11:36:02.528656+00:00
+Build Date UTC : 2024-09-18 15:54:14.097532+00:00
 -->
