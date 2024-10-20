@@ -12,6 +12,7 @@
 - NPG in RL6
 - title: "a modern RL textbook"
 - use w for parameters of Q
+- notation \mathbb for operators, \mathcal for sets, v and q for functions, capital letters for random variables
 
 proofs:
 - existence of a memoryless, stationary, deterministic policy
