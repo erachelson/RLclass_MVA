@@ -1,6 +1,7 @@
 import numpy as np
 
 def fl_P_and_r(env,pi):
+    """Computes the reward vector and transition matrix under policy pi"""
     r_pi = np.zeros((env.observation_space.n))
     P_pi = np.zeros((env.observation_space.n, env.observation_space.n))
     for x in range(env.observation_space.n):

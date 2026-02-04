@@ -1,6 +1,7 @@
 from solutions.fl_P_and_r import fl_P_and_r
 
 def state_occupancy_measure(P_pi,rho,gamma,horizon):
+    """Compute the state occupancy measure of a Markov chain with transition kernel P_pi, starting in rho"""
     state_proba_at_t = rho
     rho_pi = rho
     for t in range(1,horizon+1):

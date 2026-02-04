@@ -2,6 +2,7 @@ import gymnasium.envs.toy_text.frozen_lake as fl
 import numpy as np
 
 def mc_eval(env,pi,nb_trials):
+    """Rolls-out a number of simulations and returns the vector of scores."""
     horizon = 200
     gamma = 0.9
     Vepisode = np.zeros(nb_trials)
